@@ -5,6 +5,5 @@ function foo()
 	var client = new XMLHttpRequest();
 
 	client.open("GET", url, false);
-	
 	client.send();
 }
