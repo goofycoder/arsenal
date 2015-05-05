@@ -30,20 +30,31 @@ function handleClick() {
     var text = "";
     var i;
 
-	// display all the inputs from input box
+    // display all the inputs from input box
     for (i = 0; i < items.length-2 ;i++) {
         text += items.elements[i].value + "<br>";
     }
 
     // display all the options in the dropdown box
-    var status = document.getElementById("status");
+    var status_set = document.getElementById("status");
 
-    for (i=0; i<status.length; i++)
+    for (i=0; i<status_set.length; i++)
     {
-    	text += status.options[i].text + "<br>";
+    	text += status_set.options[i].text + "<br>";
     }
 
-    document.getElementById("demo").innerHTML = text;
+   	text += "<br>";
+
+    // display selected value OR text 
+    var selected_value = status_set.options[status_set.selectedIndex].value;
+
+    var selected_text = status_set.options[status_set.selectedIndex].text;
+
+    text += "<b>Selected value</b>: " + selected_value + "<br>";
+    text += "<b>Selected text</b>: " + selected_text + "<br>";
+
+    // echo on the page
+    document.getElementById("echo").innerHTML = text;
 }
 </script>
 
