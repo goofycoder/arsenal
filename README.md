@@ -1,6 +1,8 @@
-# arsenal
-Skillset 
+# Arsenal
+Unique skillset 
 
-Measure growth
+Measurable growth
 
 Accelerate
+
+Connect dots
