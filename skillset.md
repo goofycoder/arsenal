@@ -65,6 +65,11 @@
 ## Security
 + AD
   - RBAC (Security group)
+  - AzureAD
++ Authorization header
 
 ## Domain-specific
 + Cloud office portfolio
++ Skype for Business (used to be lync)
+  - Distribution Group
++ Office365
