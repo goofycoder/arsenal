@@ -41,6 +41,7 @@
   - trigger automation test
 
 ## Generic
++ Powershell
 + Docker
 + Git & github
   - git workshop
@@ -49,6 +50,7 @@
   - Factory
 + Contract, schema
 + Json
+  - serializer
 + RESTful architecture
   - REST client (PostMan)
   - route design
