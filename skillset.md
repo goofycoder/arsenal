@@ -9,8 +9,10 @@
 
 ## Back-end
 + DB
+  - document-oriented DB
   - mongoDB 
-    - shard
+  - mysql
+  - ? mysql vs mongodb
 + SQL
 + Multi-tenant provisioning
 
