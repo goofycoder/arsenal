@@ -31,10 +31,12 @@
   - gridster
     - jQuery plugin
     - drag-and-drop multi-column grid
-  - html <ul> <li> tag:
-    - define a list
-    - An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+  - html `<ul> <li>` tag:
 
 ### 05/16/2015
-  - <div> tag
+  - `<div>` tag
     - define a section or division in the html document
+  - `chef-client -o <run-list-item> -N node-name`
+    - manual: https://docs.chef.io/ctl_chef_client.html
+    - A chef-client is an agent that runs locally on every node that is under management by Chef. 
+    - When a chef-client is run, it will perform all of the steps that are required to bring the node into the expected state
