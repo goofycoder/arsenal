@@ -30,6 +30,13 @@
   - Vote
 
 ## CICD
++ chef
+  - Chef turns infrastructure into code. 
+  - With Chef, you can automate how you build, deploy, and manage your infrastructure. 
+  - Your infrastructure becomes as versionable, testable, and repeatable as application code.
++ Jenkins
++ Vagrant
+  - Create and configure lightweight, reproducible, and portable development environments.
 + Automation test
   - orchestration environment
   - seeding 
