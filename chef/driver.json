@@ -1,0 +1,6 @@
+{
+    "run_list": [
+        "recipe[base::recipe_1]",
+        "recipe[base::recipe_2]"
+    ]
+}
