@@ -1,3 +1,3 @@
 Run `chef-client -z -j driver.json`:
-  - it runs the recipe_1.rb and recipe_2.rb in the cookbooks/base
+  - it runs the run-list of `recipe_1.rb` and `recipe_2.rb` defined in the cookbooks/base/recipes
 
