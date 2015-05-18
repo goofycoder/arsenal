@@ -48,3 +48,8 @@
     - chef-client
     - chef-solo
     - knife
+
+### 05/17/2015
+  - ruby module
+    - `require "foo"`
+    - define namespace
