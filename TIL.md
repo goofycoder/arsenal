@@ -69,5 +69,7 @@
   - knife
     - knife is a command-line tool that provides an interface between a local chef-repo and the Chef server. 
     - it's installed when installing chef-client
-
+  - 403 (forbidden) vs 401 (unauthorized)
+  - **able to run example chef recipes**
+  - When unable to install **.exe** file, check file property to see whether it's blocked by security.
 
