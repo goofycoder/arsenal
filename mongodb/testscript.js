@@ -1,4 +1,4 @@
-// run:  mongodb testscript.js
+// run:  mongo --quiet testscript.js
 // pre-requirement:  setup yandb 
 
 db = db.getSiblingDB('yandb')
