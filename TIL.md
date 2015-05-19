@@ -1,4 +1,4 @@
-## TIL (Today I Learned)
+## TIL
 
 `------ Triage line -----------`
 
@@ -73,3 +73,16 @@
   - **able to run example chef recipes**
   - When unable to install **.exe** file, check file property to see whether it's blocked by security.
 
+### 05/19/2015
+  - UPN: User Principle Name
+  - `<tr>` tag defines a row in an HTML table. A`<tr>` element contains one or more `<th>` or `<td>` elements.
+  - `<td>` tag: Table rows are divided into table data with the <td> tag.
+  - `<th>`: A table row can also be divided into table headings with the `<th>` tag.
+  - PS command: `route print`, display info about NIC, such as Interface Index
+  - Join a machine to the domain
+  - `using` in C#: resource deallocation. For the Type class implements `IDisposable`.
+    - Some objects need some action to be taken when you have finished with them. 
+    - Usually this is because the object uses some kind of resource that needs to be disposed of. 
+  - mongodb 
+    - import
+    - scripting
