@@ -26,6 +26,10 @@ class C
     def print_foo
         p @foo
     end
+
+    def print_time
+    	p Time.now
+    end
 end
 
 i = C.new
@@ -35,3 +39,5 @@ i.print_counter
 j.print_foo
 
 p $var
+
+j.print_time
