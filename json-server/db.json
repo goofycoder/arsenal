@@ -1,0 +1,32 @@
+{
+  "people": [
+    {
+      "id": 0,
+      "name": "Seth"
+    },
+    {
+      "id": 1,
+      "name": "Kevin"
+    },
+    {
+      "name": "Mike",
+      "id": 3
+    },
+    {
+      "name": "Damon",
+      "id": 5
+    },
+    {
+      "name": "Yan",
+      "id": 6
+    },
+    {
+      "name": "Sudeep",
+      "id": 7
+    },
+    {
+      "name": "Justin",
+      "id": 8
+    }
+  ]
+}
