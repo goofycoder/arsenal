@@ -86,3 +86,18 @@
   - mongodb 
     - import
     - scripting
+
+
+### 05/20/2015
+  - Github GUI on MAC is awesome!
+  - Ruby class
+    - class variable
+    - instance variable
+    - global variable
+  - Json & Ruby
+    - generate json file
+  - Ruby
+    - write file
+  - AD attributes
+    - UserPrincipalName
+    - Description
