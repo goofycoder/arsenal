@@ -96,6 +96,7 @@
     - global variable
   - Json & Ruby
     - generate json file
+    - parse json file and read from hash
   - Ruby
     - write file
   - AD attributes
