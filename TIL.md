@@ -102,3 +102,17 @@
   - AD attributes
     - UserPrincipalName
     - Description
+
+### 05/21/2015
+  - npm
+    - package manager for javascript
+    - $npm install -g json-server
+  - Ruby
+    - REST calls
+  - Elastic search
+    - install
+    - brew install elasticsearch
+  - Curl
+    - $curl http://localhost:9200
+    - (equals to) $curl -X GET http://localhost:9200
+  
