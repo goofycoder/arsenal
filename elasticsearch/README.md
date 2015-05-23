@@ -1,5 +1,21 @@
 ### elasticsearh basics
 
+- Elasticsearch
+	- is a distributed document store
+	-  all data in every field is indexed by default. 
+		- That is, every field has a dedicated inverted index for fast retrieval. 
+	- unlike most other databases, it can use all of those inverted indices in the same query,
+	
+- object in elasticsearch
+	- just a Json object, with keys and values
+		- Key: the name of a field or property, 
+		- Value: can be a string, a number, a Boolean, another object, an array of values
+		
+	- Often, we use the terms object and document interchangeably
+	-  with keys and values. 
+		
+
+
 - Install
 	- brew install elasticsearch
 	- brew install logstash
@@ -33,3 +49,6 @@
 
 - Scalability
 	- Real scalability comes from horizontal scale—the ability to add more nodes to the cluster and to spread load and reliability between them.
+
+- search `+Quick +fox`. 
+	- a preceding `+` means that the word must be present.
