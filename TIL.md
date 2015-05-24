@@ -115,4 +115,12 @@
   - Curl
     - $curl http://localhost:9200
     - (equals to) $curl -X GET http://localhost:9200
-  
+  - Jenkins
+    - Jenkins monitors executions of repeated jobs, such as building a software project or jobs run by cron.
+    - installed on Mac
+
+### 05/23/2015
+  - ruby here doc
+    - EOH (End Of Heredoc)
+    
+
