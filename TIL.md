@@ -122,5 +122,14 @@
 ### 05/23/2015
   - ruby here doc
     - EOH (End Of Heredoc)
-    
 
+### 05/24/2015
+  - ELK stack 
+    - Elasticsearch
+    - Logstash
+    - Kibana
+
+### 05/25/2015
+  - Ruby
+    - complete OO language
+  
