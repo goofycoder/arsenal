@@ -26,3 +26,8 @@ puts new_arr    # [1,4]
 
 numbers.reject! { |n| n==9 }
 puts numbers    # changes made in-place, numbers = [1,4]
+
+#### inject
+arr = [2,4,6,8]
+sum = arr.inject(:+)  # sum the whole array
+puts 'Sum is ' + sum.to_s  # ==> 20
