@@ -130,6 +130,15 @@
     - Kibana
 
 ### 05/25/2015
-  - Ruby
-    - complete OO language
-  
+
+
+### 06/01/2015  
+
+
+### 06/08/2015
+  - node.js
+    - server-side javascript
+    - promote non-blocking programming
+      - can be achieved via callbacks and event loop
+      - callbacks are supported by most languages, but not the case for event loop
+      - javascript has built-in callbacks and event loop
