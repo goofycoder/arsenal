@@ -142,3 +142,8 @@
       - can be achieved via callbacks and event loop
       - callbacks are supported by most languages, but not the case for event loop
       - javascript has built-in callbacks and event loop
+
+### 07/06/2015
+  - Http ETag (Entity tag) 
+    - used in http header
+    - This allows caches to be more efficient, and saves bandwidth, as a web server does not need to send a full response if the content has not changed.
