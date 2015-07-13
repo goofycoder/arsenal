@@ -4,4 +4,4 @@
 
 ### Ruby basic
 	- Complete OO language
-	
+	- Optional parentheses
