@@ -1,19 +1,24 @@
 ### elasticsearh basics
-
 - Elasticsearch
 	- is a distributed document store
 	-  all data in every field is indexed by default. 
 		- That is, every field has a dedicated inverted index for fast retrieval. 
 	- unlike most other databases, it can use all of those inverted indices in the same query,
 	
+- Shard
+	- data can be divided into smaller parts called shards
+
 - object in elasticsearch
 	- just a Json object, with keys and values
 		- Key: the name of a field or property, 
 		- Value: can be a string, a number, a Boolean, another object, an array of values
-		
+
 	- Often, we use the terms object and document interchangeably
 	-  with keys and values. 
-		
+
+- Document
+	-  It refers to the top-level, or root object that is serialized into JSON
+	- stored in Elasticsearch under a unique ID.
 
 
 - Install
