@@ -7,6 +7,8 @@
 
 - embed JavaScript code within ```<script>``` tags in HTML files, and when the browser loads the file, it will execute the code.
 
+- JavaScript is a typeless language. You do not need to specify in the script what data type a variable is.
+
 - JavaScript is a case-sensitive language
 	- however, that HTML is not case-sensitive (although XHTML is). 
 	- Many client-side JavaScript objects and properties have the same names as the HTML tags and attributes they represent. While these tags and attribute names can be typed in any case in HTML, in JavaScript they typically must be all lowercase. For example, the HTML onclick event handler attribute is sometimes specified as onClick in HTML, but it must be specified as onclick in JavaScript code .
@@ -40,13 +42,49 @@
 - string
 	- Whenever you try to refer to a property of a string s, JavaScript converts the string value to an object as if by calling new String(s).
 
-- ```var s = "test";         // Start with a string value.
-s.len = 4;              // Set a property on it.
-var t = s.len;          // Now query the property.
-```
-	* When you run this code, the value of t is undefined. 
-	* The second line of code creates a temporary String object, sets its len property to 4, and then discards that object. 
-	* The third line creates a new String object from the original (unmodified) string value and then tries to read the len property. This property does not exist, and the expression evaluates to undefined. 
+- a fundamental difference in JavaScript between primitive values (undefined, null, booleans, numbers, and strings) and objects (including arrays and functions). Primitives are immutable: there is no way to change (or “mutate”) a primitive value. 
+
+- Variables are declared with the var keyword
+
+- closure
+	* Functions can refer to variables defined in outer scopes.
+	* Closures can outlive the function that creates them.
+	* Closures internally store references to their outer variables, and can both read and update their stored variables.
+
+### Mocha
+	-  javascript test framework for node.js & the browser
+
+### Node.js - to - AngularJS stack components
+- The most common—and I believe the best—version of this stack is the Node.js-to-AngularJS stack comprised of MongoDB, Express, AngularJS, and Node.js.
+- The backend services and server-side scripts are all written in Node.js. 
+- MongoDB provides the data store for the website but is accessed via a MongoDB driver Node.js module. 
+- The webserver is defined by Express, which is also a Node.js module.
+- The view in the browser is defined and controlled using the AngularJS framework. AngularJS is an MVC framework in which the model is made up of JSON or JavaScript objects, the view is HTML/CSS, and the controller is AngularJS JavaScript code.
+
+### Node.js
+- You write Node.js code in JavaScript, and then V8 JavaScript Engine compiles it into machine code to be executed.
+- write most—or maybe even all—of your server-side code in Node.js, including the webserver and the server-side scripts and any supporting web application functionality. 
+
+### Node.js single-threaded event-driven model:
+- Node.js applications run in a single-threaded event-driven model
+	- Although Node.js implements a thread pool in the background to do work, the application itself doesn’t have any concept of multiple threads. 
+- Node.js implements a thread pool in the background. 
+	- When an event that blocks I/O is retrieved from the event queue, Node.js retrieves a thread from the thread pool and executes the function there instead of on the main event loop thread. This prevents the blocking I/O from holding up the rest of the events in the event queue.
+
+### Node.js net module
+- Processes cannot share memory directly, so if you want to access data in one process from another process, you can open up the same socket in each process and read and write data between the two processes.
+
+
+
+### Reasons that MongoDB really fits well in the Node.js stack:
+- Document orientation: Because MongoDB is document oriented, data is stored in the database in a format that is very close to what you deal with in both server-side and client-side scripts. This eliminates the need to transfer data from rows to objects and back.
+- High performance: MongoDB is one of the highest-performing databases available. Especially today, with more and more people interacting with websites, it is important to have a backend that can support heavy traffic.
+- High availability: MongoDB’s replication model makes it very easy to maintain scalability while keeping high performance.
+- High scalability: MongoDB’s structure makes it easy to scale horizontally by sharding the data across multiple servers.
+- No SQL injection: MongoDB is not susceptible to SQL injection (that is, putting SQL statements in web forms or other input from the browser and thereby compromising database security). This is the case because objects are stored as objects, not using SQL strings.
+
+# AngularJS
+- a client-side framework developed by Google.
 
 
 
