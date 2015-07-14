@@ -3,9 +3,6 @@
   - SP automation
 - install webapp / virtual directory
 
-### General
-
-
 ### To triage
 Bona fide All-Star
 
