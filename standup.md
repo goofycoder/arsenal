@@ -1,0 +1,6 @@
+- ** 07/16/2015 **
+  - Completed the work for adding v2 usage endpoint for o365 to address the billing issue. Will do the deployment today.
+  - Wrapped up the work for o365 subscription suspension. Tested against production env using test account. It works fine.
+  - ** TO-DO **:
+    - Todd reported the issue on MGMT to SPRAX user sync issue, I will take a look at that.
+    - Start to work on the update license quantity for o365 subscription.
