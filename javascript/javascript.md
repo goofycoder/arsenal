@@ -52,7 +52,7 @@
 	* Closures internally store references to their outer variables, and can both read and update their stored variables.
 
 ### Mocha
-	-  javascript test framework for node.js & the browser
+-  javascript test framework for node.js & the browser
 
 ### Node.js - to - AngularJS stack components
 - The most common—and I believe the best—version of this stack is the Node.js-to-AngularJS stack comprised of MongoDB, Express, AngularJS, and Node.js.
