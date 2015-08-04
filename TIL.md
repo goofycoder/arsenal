@@ -1,6 +1,8 @@
 ## TIL
 
 `------ Triage line -----------`
+### 08/04/2015
+- DeepLink  example: airbnb://room/723 http://nerds.airbnb.com/deeplinkdispatch/
 
 ### 05/14/2015
   - DNS forward zone
