@@ -4,4 +4,7 @@
 
 ### Ruby basic
 	- Complete OO language
-	- Optional parentheses
+	- Optional parenthese
+
+### Ruby gem
+  - gem list  ( it will list all installed gems and its versions)
