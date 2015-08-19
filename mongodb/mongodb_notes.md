@@ -18,4 +18,11 @@ Aggregations are operations that process data records and return computed result
 ## misc
 In MongoDB, documents stored in a collection require a unique **_id** field that acts as a **primary key**. 
 
+MongoDB clients should add an _id field with a unique ObjectId. Using ObjectIds for the _id field provides the following additional benefits:
+
+- in the mongo shell, you can access the creation time of the ObjectId, using the getTimestamp() method.
+- sorting on an _id field that stores ObjectId values is roughly equivalent to sorting by creation time.
+
+
+
 **[⬆ back to top](#table-of-contents)**
