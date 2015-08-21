@@ -16,13 +16,17 @@ Aggregations are operations that process data records and return computed result
 **[⬆ back to top](#table-of-contents)**
 
 ## misc
-In MongoDB, documents stored in a collection require a unique **_id** field that acts as a **primary key**. If **_id** is present, MongoDB will use it as **_id** field.
+- In MongoDB, documents stored in a collection require a unique **_id** field that acts as a **primary key**. If **_id** is present, MongoDB will use it as **_id** field.
 
-If **_id** field is not specified in the document, MongoDB will add an _id field with a unique ObjectId. Using ObjectIds for the _id field provides the following additional benefits:
+- If **_id** field is not specified in the document, MongoDB will add an _id field with a unique ObjectId. Using ObjectIds for the _id field provides the following additional benefits:
+  - in the mongo shell, you can access the creation time of the ObjectId, using the getTimestamp() method.
+  - sorting on an _id field that stores ObjectId values is roughly equivalent to sorting by creation time.
 
-- in the mongo shell, you can access the creation time of the ObjectId, using the getTimestamp() method.
-- sorting on an _id field that stores ObjectId values is roughly equivalent to sorting by creation time.
+- db.collection.explain("executionStats") methods provide statistics about the performance of a query. 
 
-
+- compound index
+  - db.inventory.createIndex( { type: 1, quantity: 1 } )     // create two indexes on 'type' and 'quantity'
+  - The order of index matters
+    - orders by 'type' first, and then the 'quantity' field.
 
 **[⬆ back to top](#table-of-contents)**
