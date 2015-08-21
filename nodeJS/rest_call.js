@@ -30,8 +30,8 @@ var req = https.request(options, function(response) {
 
 var parse = function(data, callback)
 {
-	var d = JSON.parse(data);
-	callback(d['country']);			// 'country' is a key string
+    var d = JSON.parse(data);
+    callback(d['country']);			// 'country' is a key string
 }
 
 var foo = function(data, callback)
