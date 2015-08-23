@@ -51,10 +51,7 @@
     - chef-solo
     - knife
 
-### 05/17/2015
-  - ruby module
-    - `require "foo"`
-    - define namespace
+### 05/17/2015 (done)
 
 ### 05/18/2015
   - `$ad = Get-ADObject -Filter { ObjectClass -eq "trustedDomain" } -Properties *        $ad.Refresh`
