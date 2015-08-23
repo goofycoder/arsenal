@@ -1,13 +1,15 @@
 ### JavaScript
 
-- JavaScript is the programming language of the Web. The overwhelming majority of modern websites use JavaScript.
-	- HTML to specify the content of web pages
-	- CSS to specify the presentation of web pages
-	- JavaScript to specify the behavior of web pages.
+- the programming language of the Web. 
+  - The overwhelming majority of modern websites use JavaScript.
+    - HTML: specify the content of web pages
+    - CSS:  specify the presentation of web pages
+    - JavaScript: specify the behavior of web pages.
 
 - embed JavaScript code within ```<script>``` tags in HTML files, and when the browser loads the file, it will execute the code.
 
-- JavaScript is a typeless language. You do not need to specify in the script what data type a variable is.
+- JavaScript is a typeless language. 
+  - do not need to specify in the script what data type a variable is.
 
 - JavaScript is a case-sensitive language
 	- however, that HTML is not case-sensitive (although XHTML is). 
@@ -44,7 +46,7 @@
 
 - a fundamental difference in JavaScript between primitive values (undefined, null, booleans, numbers, and strings) and objects (including arrays and functions). Primitives are immutable: there is no way to change (or “mutate”) a primitive value. 
 
-- Variables are declared with the var keyword
+- Variables are declared with the ``var`` keyword
 
 - closure
 	* Functions can refer to variables defined in outer scopes.
