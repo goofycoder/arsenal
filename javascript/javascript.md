@@ -33,7 +33,9 @@
 		a.sort();       // The object-oriented version of sort(a).
 		```
 
-- The JavaScript interpreter performs automatic garbage collection for memory management. This means that a program can create objects as needed, and the programmer never needs to worry about destruction or deallocation of those objects. When an object is no longer reachable—when a program no longer has any way to refer to it—the interpreter knows it can never be used again and automatically reclaims the memory it was occupying.
+- The JavaScript interpreter performs automatic garbage collection for memory management. 
+  - This means that a program can create objects as needed, and the programmer never needs to worry about destruction or deallocation of those objects. 
+  - When an object is no longer reachable—when a program no longer has any way to refer to it—the interpreter knows it can never be used again and automatically reclaims the memory it was occupying.
 
 - JavaScript does not make a distinction between integer values and floating-point values. 
 	- All numbers in JavaScript are represented as floating-point values. 
@@ -45,7 +47,6 @@
 	- Whenever you try to refer to a property of a string s, JavaScript converts the string value to an object as if by calling new String(s).
 
 - a fundamental difference in JavaScript between primitive values (undefined, null, booleans, numbers, and strings) and objects (including arrays and functions). Primitives are immutable: there is no way to change (or “mutate”) a primitive value. 
-
 - Variables are declared with the ``var`` keyword
 
 - closure
