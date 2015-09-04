@@ -57,9 +57,7 @@
   - `$ad = Get-ADObject -Filter { ObjectClass -eq "trustedDomain" } -Properties *        $ad.Refresh`
   - Powershell command
     - `Get-ADObject`
-  - Austin is eligible for early intervention
   - chef uses ruby as its recipe language
-  - TKDE paper is accepted
   - `$ ruby -c my_cookbook_file.rb`  to check syntax of ruby. Return `Syntax OK` if everything works
   - install chef-client (tried on MAC)
     - `curl -L https://www.chef.io/chef/install.sh | sudo bash`
@@ -88,7 +86,6 @@
 
 
 ### 05/20/2015
-  - Github GUI on MAC is awesome!
   - Ruby class
     - class variable
     - instance variable
