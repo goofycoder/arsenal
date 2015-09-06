@@ -1,20 +1,20 @@
 var events = require('events'),
-	emitter = new events.EventEmitter();
+    emitter = new events.EventEmitter();
 
 function doATask(status) {
-	if (status === 'success') {
- 		emitter.emit('taskSuccess'); // Specific event
+    if (status === 'success') {
+        emitter.emit('taskSuccess'); // Specific event
  	} else if (status === 'fail') {
- 		emitter.emit('taskFail');
- 	}
+ 	    emitter.emit('taskFail');
+    }
 }
 
 emitter.on('taskSuccess', function() {
-	console.log('task success!');
+    console.log('task success!');
 });
 
 emitter.on('taskFail', function() {
- 	console.log('task fail');
+    console.log('task fail');
 });
 
 // call task with success status
