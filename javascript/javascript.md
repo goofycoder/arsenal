@@ -1,5 +1,9 @@
 ### JavaScript
 
+- progressive enhancement
+  -  Progressive enhancement is the fundamental base for all front-end development. 
+  -  At its most basic level, it is creating a functional separation between HTML, CSS, and JavaScript.
+
 - the programming language of the Web. 
   - The overwhelming majority of modern websites use JavaScript.
     - HTML: specify the content of web pages
